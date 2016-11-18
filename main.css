@@ -1,0 +1,33 @@
+#banner1 {
+  border-style: dotted;
+}
+
+#car_menu {
+  margin-top: 10px;
+}
+
+/* Vertical divider for row */
+
+.grid--borderBetween > [class*='col-']:before,
+.grid--borderBetween > [class*='col-']:after {
+    background: #b2b2b2;
+    bottom: 0;
+    content: " ";
+    position: absolute;
+    width: 1px;
+    top: 0;
+}
+.grid--borderBetween > [class*='col-']:before {
+    left: 0;
+}
+.grid--borderBetween > [class*='col-']:after {
+    right: -1px;
+}
+.grid--borderBetween > [class*='col-']:first-child:before,
+.grid--borderBetween > [class*='col-']:last-child:after {
+    display: none;
+}
+
+.dummy {
+
+}
