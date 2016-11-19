@@ -4,6 +4,15 @@
 
 #car_menu {
   margin-top: 10px;
+  background-color: #ddd;
+}
+
+#bottom_menu {
+  background-color: #ddd;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-top: 10px;
 }
 
 /* Vertical divider for row: It adds a border for both columns */
