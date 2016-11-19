@@ -6,7 +6,7 @@
   margin-top: 10px;
 }
 
-/* Vertical divider for row */
+/* Vertical divider for row: It adds a border for both columns */
 
 .grid--borderBetween > [class*='col-']:before,
 .grid--borderBetween > [class*='col-']:after {
