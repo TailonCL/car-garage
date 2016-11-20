@@ -29,9 +29,28 @@
     <div class="row">
       <div class="col-xs-10 col-xs-offset-2 col-sm-9 col-sm-offset-3
       col-md-8 col-md-offset-4 col-lg-8 col-lg-offset-4">
-        <div class="btn-group btn-group-lg">
+        <div class="btn-group"> <!-- Button Group -->
           <button type="button" class="btn btn-default">Home</button>
-          <button type="button" class="btn btn-default">Cars</button>
+
+          <!-- Cars Dropdown -->
+          <div class="btn-group">
+          <button type="button" class="btn btn-default dropdown-toggle"
+          data-toggle='dropdown'>Cars <span class="caret"></span></button>
+          <ul class="dropdown-menu">
+            <li class="dropdown-header">Classic Models</li>
+            <li><a href="#">First generation</a></li>
+            <li><a href="#">Second generation</a></li>
+            <li class="divider"></li>
+            <li class="dropdown-header">Modern Cars</li>
+            <li><a href="#">X-series</a></li>
+            <li><a href="#">SS-series</a></li>
+            <li class="divider"></li>
+            <li class="dropdown-header">Experimental Design</li>
+            <li><a href="#">Birdie</a></li>
+            <li><a href="#">Probe</a></li>
+          </ul>
+          </div>
+
           <button type="button" class="btn btn-default">Contact</button>
           <button type="button" class="btn btn-default">About us</button>
         </div>
