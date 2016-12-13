@@ -1,5 +1,5 @@
 #banner1 {
-  border-style: dotted;
+
 }
 
 #car_menu {
@@ -37,6 +37,8 @@
     display: none;
 }
 
-.dummy {
-
+#designer {
+  color: gray;
+  font-size: 18px;
+  margin-top: 15px;
 }
